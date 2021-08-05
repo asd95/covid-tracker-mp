@@ -1,0 +1,31 @@
+@import 'reset-css/sass/reset';
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+*::-webkit-scrollbar {
+  width: .7rem;
+}
+*::-webkit-scrollbar-track {
+  background: #eee;
+}
+*::-webkit-scrollbar-thumb {
+  background: #999;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: #6366f1;
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
